@@ -1,0 +1,216 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: OrgByte
+      - generic [ref=e8]: Verification Dashboard
+    - generic [ref=e10]: Admin
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - text: "Total:"
+      - strong [ref=e14]: "10"
+    - generic [ref=e15]:
+      - text: "Verified:"
+      - strong [ref=e16]: "4"
+    - generic [ref=e17]:
+      - text: "Pending:"
+      - strong [ref=e18]: "3"
+    - generic [ref=e19]:
+      - text: "Unverified:"
+      - strong [ref=e20]: "3"
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - button "All" [ref=e24] [cursor=pointer]
+        - button "Verified" [ref=e25] [cursor=pointer]
+        - button "Pending" [ref=e26] [cursor=pointer]
+        - button "Unverified" [ref=e27] [cursor=pointer]
+      - generic [ref=e28]:
+        - img
+        - textbox [ref=e29]:
+          - /placeholder: Search by name...
+    - generic [ref=e140]:
+      - article [ref=e141]:
+        - generic [ref=e142]:
+          - generic [ref=e143]: AO
+          - generic [ref=e144]:
+            - heading "Amara Osei" [level=2] [ref=e145]
+            - paragraph [ref=e146]: Verification Member
+        - generic [ref=e147]:
+          - generic [ref=e148]: Passport
+          - generic [ref=e149]: Bank Statement
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e152]: Status
+            - generic [ref=e153]: Verified
+          - generic [ref=e154]:
+            - generic [ref=e155]: Update to
+            - combobox "Update to" [ref=e156]:
+              - option "Verified" [selected]
+              - option "Pending"
+              - option "Unverified"
+      - article [ref=e157]:
+        - generic [ref=e158]:
+          - generic [ref=e159]: EN
+          - generic [ref=e160]:
+            - heading "Emeka Nwosu" [level=2] [ref=e161]
+            - paragraph [ref=e162]: Verification Member
+        - generic [ref=e163]:
+          - generic [ref=e164]: ID
+          - generic [ref=e165]: Utility Bill
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: Status
+            - generic [ref=e169]: Pending
+          - generic [ref=e170]:
+            - generic [ref=e171]: Update to
+            - combobox "Update to" [ref=e172]:
+              - option "Verified"
+              - option "Pending" [selected]
+              - option "Unverified"
+      - article [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]: FA
+          - generic [ref=e176]:
+            - heading "Fatima Al-Hassan" [level=2] [ref=e177]
+            - paragraph [ref=e178]: Verification Member
+        - generic [ref=e180]: ID
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]: Status
+            - generic [ref=e184]: Unverified
+          - generic [ref=e185]:
+            - generic [ref=e186]: Update to
+            - combobox "Update to" [ref=e187]:
+              - option "Verified"
+              - option "Pending"
+              - option "Unverified" [selected]
+      - article [ref=e188]:
+        - generic [ref=e189]:
+          - generic [ref=e190]: CO
+          - generic [ref=e191]:
+            - heading "Chidi Okeke" [level=2] [ref=e192]
+            - paragraph [ref=e193]: Verification Member
+        - generic [ref=e194]:
+          - generic [ref=e195]: Business Reg
+          - generic [ref=e196]: Tax Certificate
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]: Status
+            - generic [ref=e200]: Verified
+          - generic [ref=e201]:
+            - generic [ref=e202]: Update to
+            - combobox "Update to" [ref=e203]:
+              - option "Verified" [selected]
+              - option "Pending"
+              - option "Unverified"
+      - article [ref=e204]:
+        - generic [ref=e205]:
+          - generic [ref=e206]: NA
+          - generic [ref=e207]:
+            - heading "Ngozi Adeyemi" [level=2] [ref=e208]
+            - paragraph [ref=e209]: Verification Member
+        - generic [ref=e211]: Passport
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - generic [ref=e214]: Status
+            - generic [ref=e215]: Pending
+          - generic [ref=e216]:
+            - generic [ref=e217]: Update to
+            - combobox "Update to" [ref=e218]:
+              - option "Verified"
+              - option "Pending" [selected]
+              - option "Unverified"
+      - article [ref=e219]:
+        - generic [ref=e220]:
+          - generic [ref=e221]: KM
+          - generic [ref=e222]:
+            - heading "Kwame Mensah" [level=2] [ref=e223]
+            - paragraph [ref=e224]: Verification Member
+        - generic [ref=e225]:
+          - generic [ref=e226]: Utility Bill
+          - generic [ref=e227]: Bank Statement
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - generic [ref=e230]: Status
+            - generic [ref=e231]: Unverified
+          - generic [ref=e232]:
+            - generic [ref=e233]: Update to
+            - combobox "Update to" [ref=e234]:
+              - option "Verified"
+              - option "Pending"
+              - option "Unverified" [selected]
+      - article [ref=e235]:
+        - generic [ref=e236]:
+          - generic [ref=e237]: ZB
+          - generic [ref=e238]:
+            - heading "Zainab Bello" [level=2] [ref=e239]
+            - paragraph [ref=e240]: Verification Member
+        - generic [ref=e241]:
+          - generic [ref=e242]: ID
+          - generic [ref=e243]: Passport
+          - generic [ref=e244]: Bank Statement
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e247]: Status
+            - generic [ref=e248]: Verified
+          - generic [ref=e249]:
+            - generic [ref=e250]: Update to
+            - combobox "Update to" [ref=e251]:
+              - option "Verified" [selected]
+              - option "Pending"
+              - option "Unverified"
+      - article [ref=e252]:
+        - generic [ref=e253]:
+          - generic [ref=e254]: TF
+          - generic [ref=e255]:
+            - heading "Tunde Fashola" [level=2] [ref=e256]
+            - paragraph [ref=e257]: Verification Member
+        - generic [ref=e259]: Tax Certificate
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - generic [ref=e262]: Status
+            - generic [ref=e263]: Pending
+          - generic [ref=e264]:
+            - generic [ref=e265]: Update to
+            - combobox "Update to" [ref=e266]:
+              - option "Verified"
+              - option "Pending" [selected]
+              - option "Unverified"
+      - article [ref=e267]:
+        - generic [ref=e268]:
+          - generic [ref=e269]: AE
+          - generic [ref=e270]:
+            - heading "Adaeze Eze" [level=2] [ref=e271]
+            - paragraph [ref=e272]: Verification Member
+        - generic [ref=e273]:
+          - generic [ref=e274]: Business Reg
+          - generic [ref=e275]: Utility Bill
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]: Status
+            - generic [ref=e279]: Verified
+          - generic [ref=e280]:
+            - generic [ref=e281]: Update to
+            - combobox "Update to" [ref=e282]:
+              - option "Verified" [selected]
+              - option "Pending"
+              - option "Unverified"
+      - article [ref=e283]:
+        - generic [ref=e284]:
+          - generic [ref=e285]: SK
+          - generic [ref=e286]:
+            - heading "Seun Kuti" [level=2] [ref=e287]
+            - paragraph [ref=e288]: Verification Member
+        - generic [ref=e289]:
+          - generic [ref=e290]: ID
+          - generic [ref=e291]: Tax Certificate
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - generic [ref=e294]: Status
+            - generic [ref=e295]: Unverified
+          - generic [ref=e296]:
+            - generic [ref=e297]: Update to
+            - combobox "Update to" [ref=e298]:
+              - option "Verified"
+              - option "Pending"
+              - option "Unverified" [selected]
