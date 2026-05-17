@@ -40,17 +40,16 @@ export default function UserCard({ user, onStatusChange }) {
       </div>
 
       <div className="border-t border-gray-100 pt-4">
-        <div className="mb-3 flex items-center justify-between gap-3">
+        <div className="flex items-center justify-between gap-3">
           <span className="text-[13px] text-gray-500">Status</span>
-          <StatusBadge status={user.status} />
-        </div>
-
-        <label className="block">
-          <span className="mb-1 block text-[13px] text-gray-500">Update to</span>
+          <div className="flex items-center gap-3">
+            <StatusBadge status={user.status} />
+            <label className="block">
           <select
             value={user.status}
             onChange={(event) => onStatusChange(user.id, event.target.value)}
-            className="h-9 w-full rounded-lg border border-gray-300 bg-white px-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+            aria-label={`Update ${user.name} status`}
+            className="h-9 rounded-lg border border-gray-300 bg-white px-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
           >
             {FILTER_OPTIONS.filter((option) => option !== STATUS.ALL).map((status) => (
               <option key={status} value={status}>
@@ -58,7 +57,9 @@ export default function UserCard({ user, onStatusChange }) {
               </option>
             ))}
           </select>
-        </label>
+            </label>
+          </div>
+        </div>
       </div>
     </article>
   );
