@@ -44,19 +44,29 @@ export default function UserCard({ user, onStatusChange }) {
           <span className="text-[13px] text-gray-500">Status</span>
           <div className="flex items-center gap-3">
             <StatusBadge status={user.status} />
-            <label className="block">
-          <select
-            value={user.status}
-            onChange={(event) => onStatusChange(user.id, event.target.value)}
-            aria-label={`Update ${user.name} status`}
-            className="h-9 rounded-lg border border-gray-300 bg-white px-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-          >
-            {FILTER_OPTIONS.filter((option) => option !== STATUS.ALL).map((status) => (
-              <option key={status} value={status}>
-                {STATUS_LABELS[status]}
-              </option>
-            ))}
-          </select>
+            <label className="relative block">
+              <select
+                value={user.status}
+                onChange={(event) => onStatusChange(user.id, event.target.value)}
+                aria-label={`Update ${user.name} status`}
+                className="h-9 w-10 appearance-none rounded-lg border border-gray-300 bg-white text-transparent focus:outline-none focus:ring-2 focus:ring-primary"
+              >
+                {FILTER_OPTIONS.filter((option) => option !== STATUS.ALL).map((status) => (
+                  <option key={status} value={status}>
+                    {STATUS_LABELS[status]}
+                  </option>
+                ))}
+              </select>
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 20 20"
+                className="pointer-events-none absolute left-1/2 top-1/2 h-4 w-4 -translate-x-1/2 -translate-y-1/2 text-gray-500"
+              >
+                <path
+                  d="M5.47 7.97a.75.75 0 0 1 1.06 0L10 11.44l3.47-3.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 0 1 0-1.06Z"
+                  fill="currentColor"
+                />
+              </svg>
             </label>
           </div>
         </div>
