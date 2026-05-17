@@ -49,7 +49,7 @@ export default function UserCard({ user, onStatusChange }) {
                 value={user.status}
                 onChange={(event) => onStatusChange(user.id, event.target.value)}
                 aria-label={`Update ${user.name} status`}
-                className="h-9 w-10 appearance-none rounded-lg border border-gray-300 bg-white text-transparent focus:outline-none focus:ring-2 focus:ring-primary"
+                className="peer absolute inset-0 z-10 h-9 w-10 cursor-pointer appearance-none opacity-0"
               >
                 {FILTER_OPTIONS.filter((option) => option !== STATUS.ALL).map((status) => (
                   <option key={status} value={status}>
@@ -57,16 +57,14 @@ export default function UserCard({ user, onStatusChange }) {
                   </option>
                 ))}
               </select>
-              <svg
-                aria-hidden="true"
-                viewBox="0 0 20 20"
-                className="pointer-events-none absolute left-1/2 top-1/2 h-4 w-4 -translate-x-1/2 -translate-y-1/2 text-gray-500"
-              >
-                <path
-                  d="M5.47 7.97a.75.75 0 0 1 1.06 0L10 11.44l3.47-3.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 0 1 0-1.06Z"
-                  fill="currentColor"
-                />
-              </svg>
+              <span className="pointer-events-none flex h-9 w-10 items-center justify-center rounded-lg border border-gray-300 bg-white text-gray-500 peer-focus:ring-2 peer-focus:ring-primary">
+                <svg aria-hidden="true" viewBox="0 0 20 20" className="h-4 w-4">
+                  <path
+                    d="M5.47 7.97a.75.75 0 0 1 1.06 0L10 11.44l3.47-3.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 0 1 0-1.06Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
             </label>
           </div>
         </div>
