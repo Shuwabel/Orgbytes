@@ -52,7 +52,18 @@ export default function App() {
         </div>
         <div className="flex items-center gap-2">
           <span className="hidden text-sm text-white/90 sm:inline">Admin</span>
-          <span className="h-8 w-8 rounded-full border border-white/70 bg-white/20" />
+          <span className="flex h-8 w-8 items-center justify-center rounded-full border border-white/70 bg-white/20">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 20 20"
+              className="h-4 w-4 text-white"
+            >
+              <path
+                d="M10 3.25a3.25 3.25 0 1 1 0 6.5a3.25 3.25 0 0 1 0-6.5Zm0 8c-3.176 0-5.75 2.127-5.75 4.75c0 .414.336.75.75.75h10c.414 0 .75-.336.75-.75c0-2.623-2.574-4.75-5.75-4.75Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
         </div>
       </header>
 
