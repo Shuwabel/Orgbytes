@@ -24,7 +24,7 @@ export default function UserCard({ user, onStatusChange }) {
         </div>
         <div>
           <h2 className="text-[15px] font-semibold text-gray-900">{user.name}</h2>
-          <p className="text-[13px] text-gray-500">Verification Member</p>
+          <p className="text-[13px] text-gray-500">{user.email}</p>
         </div>
       </div>
 

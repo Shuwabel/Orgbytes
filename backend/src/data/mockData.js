@@ -2,6 +2,7 @@ export const users = [
   {
     id: "user-1",
     name: "Amara Osei",
+    email: "amara.osei@gmail.com",
     status: "verified",
     categories: ["Passport", "Bank Statement"],
     updatedAt: "2026-05-01T09:00:00Z",
@@ -9,6 +10,7 @@ export const users = [
   {
     id: "user-2",
     name: "Emeka Nwosu",
+    email: "emeka.nwosu@yahoo.com",
     status: "pending",
     categories: ["ID", "Utility Bill"],
     updatedAt: "2026-05-03T11:30:00Z",
@@ -16,6 +18,7 @@ export const users = [
   {
     id: "user-3",
     name: "Fatima Al-Hassan",
+    email: "fatima.alhassan@outlook.com",
     status: "unverified",
     categories: ["ID"],
     updatedAt: "2026-05-05T08:15:00Z",
@@ -23,6 +26,7 @@ export const users = [
   {
     id: "user-4",
     name: "Chidi Okeke",
+    email: "chidi.okeke@gmail.com",
     status: "verified",
     categories: ["Business Reg", "Tax Certificate"],
     updatedAt: "2026-05-06T14:00:00Z",
@@ -30,6 +34,7 @@ export const users = [
   {
     id: "user-5",
     name: "Ngozi Adeyemi",
+    email: "ngozi.adeyemi@yahoo.com",
     status: "pending",
     categories: ["Passport"],
     updatedAt: "2026-05-08T10:45:00Z",
@@ -37,6 +42,7 @@ export const users = [
   {
     id: "user-6",
     name: "Kwame Mensah",
+    email: "kwame.mensah@hotmail.com",
     status: "unverified",
     categories: ["Utility Bill", "Bank Statement"],
     updatedAt: "2026-05-09T16:20:00Z",
@@ -44,6 +50,7 @@ export const users = [
   {
     id: "user-7",
     name: "Zainab Bello",
+    email: "zainab.bello@gmail.com",
     status: "verified",
     categories: ["ID", "Passport", "Bank Statement"],
     updatedAt: "2026-05-10T13:00:00Z",
@@ -51,6 +58,7 @@ export const users = [
   {
     id: "user-8",
     name: "Tunde Fashola",
+    email: "tunde.fashola@yahoo.com",
     status: "pending",
     categories: ["Tax Certificate"],
     updatedAt: "2026-05-11T09:30:00Z",
@@ -58,6 +66,7 @@ export const users = [
   {
     id: "user-9",
     name: "Adaeze Eze",
+    email: "adaeze.eze@outlook.com",
     status: "verified",
     categories: ["Business Reg", "Utility Bill"],
     updatedAt: "2026-05-12T12:00:00Z",
@@ -65,9 +74,9 @@ export const users = [
   {
     id: "user-10",
     name: "Seun Kuti",
+    email: "seun.kuti@hotmail.com",
     status: "unverified",
     categories: ["ID", "Tax Certificate"],
     updatedAt: "2026-05-13T15:45:00Z",
   },
 ];
-
