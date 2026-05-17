@@ -1,0 +1,73 @@
+export const users = [
+  {
+    id: "user-1",
+    name: "Amara Osei",
+    status: "verified",
+    categories: ["Passport", "Bank Statement"],
+    updatedAt: "2026-05-01T09:00:00Z",
+  },
+  {
+    id: "user-2",
+    name: "Emeka Nwosu",
+    status: "pending",
+    categories: ["ID", "Utility Bill"],
+    updatedAt: "2026-05-03T11:30:00Z",
+  },
+  {
+    id: "user-3",
+    name: "Fatima Al-Hassan",
+    status: "unverified",
+    categories: ["ID"],
+    updatedAt: "2026-05-05T08:15:00Z",
+  },
+  {
+    id: "user-4",
+    name: "Chidi Okeke",
+    status: "verified",
+    categories: ["Business Reg", "Tax Certificate"],
+    updatedAt: "2026-05-06T14:00:00Z",
+  },
+  {
+    id: "user-5",
+    name: "Ngozi Adeyemi",
+    status: "pending",
+    categories: ["Passport"],
+    updatedAt: "2026-05-08T10:45:00Z",
+  },
+  {
+    id: "user-6",
+    name: "Kwame Mensah",
+    status: "unverified",
+    categories: ["Utility Bill", "Bank Statement"],
+    updatedAt: "2026-05-09T16:20:00Z",
+  },
+  {
+    id: "user-7",
+    name: "Zainab Bello",
+    status: "verified",
+    categories: ["ID", "Passport", "Bank Statement"],
+    updatedAt: "2026-05-10T13:00:00Z",
+  },
+  {
+    id: "user-8",
+    name: "Tunde Fashola",
+    status: "pending",
+    categories: ["Tax Certificate"],
+    updatedAt: "2026-05-11T09:30:00Z",
+  },
+  {
+    id: "user-9",
+    name: "Adaeze Eze",
+    status: "verified",
+    categories: ["Business Reg", "Utility Bill"],
+    updatedAt: "2026-05-12T12:00:00Z",
+  },
+  {
+    id: "user-10",
+    name: "Seun Kuti",
+    status: "unverified",
+    categories: ["ID", "Tax Certificate"],
+    updatedAt: "2026-05-13T15:45:00Z",
+  },
+];
+
